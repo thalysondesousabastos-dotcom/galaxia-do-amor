@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Galáxia do Amor 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="scene"></canvas>
+
+  <!-- Tela de entrada -->
+  <div id="intro">
+    <h1>Galáxia do Amor</h1>
+    <p>Uma galáxia feita só para você ✨</p>
+    <button id="startBtn">Iniciar Viagem</button>
+  </div>
+
+  <!-- Painel de memória -->
+  <div id="memoryPanel" class="hidden">
+    <img id="memoryPhoto" src="" alt="Memória" />
+    <h2 id="memoryTitle"></h2>
+    <p id="memoryText"></p>
+    <button id="closeMemory">Continuar voando ✨</button>
+  </div>
+
+  <!-- Dica -->
+  <div id="hud">
+    <p>🚀 Clique nos planetas e orbes para descobrir nossas memórias</p>
+  </div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>

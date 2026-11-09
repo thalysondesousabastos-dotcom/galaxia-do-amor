@@ -9,57 +9,57 @@ import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js'
 // ==========================================
 const memories = [
   { 
-    photo: 'assets/foto1.jpg', 
+    photo: 'IMG-20261108-WA0062.jpg', 
     title: 'Onde tudo começou 💫', 
     text: '2024, no primeiro ano do ensino médio. Foi ali que o universo cruzou os nossos caminhos pela primeira vez. Eu ainda não sabia, mas a minha vida estava prestes a mudar para sempre.' 
   },
   { 
-    photo: 'assets/foto2.jpg', 
+    photo: 'IMG-20261108-WA0063.jpg', 
     title: 'Dois anos de silêncio 🌙', 
     text: 'Eu vim para Goiânia e o destino nos afastou por dois anos. O tempo passou, a distância existiu, mas o nosso laço nunca se rompeu. Algumas conexões são maiores que o espaço.' 
   },
   { 
-    photo: 'assets/foto3.jpg', 
+    photo: 'IMG-20261108-WA0064.jpg', 
     title: '17 de setembro: O Reencontro 💌', 
     text: 'Nesse dia, você me mandou mensagem dizendo que gostava de mim desde 2024. Eu respondi que também sentia o mesmo. No mesmo dia, escolhemos ficar juntos. E aqui estamos, até hoje.' 
   },
   { 
-    photo: 'assets/foto4.jpg', 
+    photo: 'IMG-20261108-WA0065.jpg', 
     title: 'Perto através das fotos 📸', 
     text: 'Mesmo quando a distância física insiste em nos separar, você está sempre perto de mim. Cada foto sua que eu olho é como um pedacinho de você iluminando o meu céu.' 
   },
   { 
-    photo: 'assets/foto5.jpg', 
+    photo: 'IMG-20261108-WA0066.jpg', 
     title: 'O seu sorriso é o meu norte 🧭', 
     text: 'Navegando por essa imensidão, eu busco o seu sorriso. Não importa em qual planeta eu esteja, é nele que eu encontro a minha direção e o meu porto seguro.' 
   },
   { 
-    photo: 'assets/foto6.jpg', 
+    photo: 'IMG-20261108-WA0067.jpg', 
     title: 'Uma galáxia inteira de amor 🌌', 
     text: 'Eu criei a nossa Galáxia do Amor porque a distância entre Goiânia e você não é nada comparada ao tamanho do que eu sinto. Você é a estrela mais brilhante daqui.' 
   },
   { 
-    photo: 'assets/foto7.jpg', 
+    photo: 'IMG-20261108-WA0068.jpg', 
     title: 'Meu lugar favorito é você 🏡', 
     text: 'As fotos são a forma que encontrei de te manter colada em mim. Quando a saudade bate, eu viajo no tempo e no espaço, e te encontro em cada memória que construímos.' 
   },
   { 
-    photo: 'assets/foto8.jpg', 
+    photo: 'IMG-20261108-WA0069.jpg', 
     title: 'A distância é só um detalhe 💞', 
     text: 'Os quilômetros que nos separam não são capazes de apagar o que a gente vive. Você está perto de mim através das fotos, das mensagens, do pensamento e do coração.' 
   },
   { 
-    photo: 'assets/foto9.jpg', 
+    photo: 'IMG-20261108-WA0070.jpg', 
     title: 'O nosso tempo é o agora ⏳', 
     text: 'Dois anos sem falar serviram para provar que o nosso destino estava apenas esperando o momento certo. E o momento certo é agora, é hoje, é sempre que eu penso em você.' 
   },
   { 
-    photo: 'assets/foto10.jpg', 
+    photo: 'IMG-20261108-WA0071.jpg', 
     title: 'Sob as mesmas estrelas ✨', 
     text: 'Mesmo separados por essa distância, quando eu olho para o céu à noite, sei que você está olhando para as mesmas estrelas. É o nosso ponto de encontro secreto no universo.' 
   },
   { 
-    photo: 'assets/foto11.jpg', 
+    photo: 'IMG-20261108-WA0072.jpg', 
     title: 'Você é a minha Galáxia 💖', 
     text: 'Eu não posso estar do seu lado fisicamente todos os dias agora, mas criei esse universo todo só para te lembrar: você é o meu mundo, a minha galáxia, o meu amor. Eu te amo!' 
   }
